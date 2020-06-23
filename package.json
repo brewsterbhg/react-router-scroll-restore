@@ -1,0 +1,43 @@
+{
+  "name": "react-router-scroll-restore",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/react-router-scroll-restore.js",
+  "module": "build/react-router-scroll-restore.es.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brewsterbhg/react-router-scroll-restore"
+  },
+  "author": {
+    "name": "Keith Brewster",
+    "url": "https://switchcasebreak.com",
+    "email": "keith.brewster22@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "react router",
+    "scroll restore"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "rollup": "^2.18.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
